@@ -46,3 +46,14 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 } else {
   checkbox.checked = false;
 }
+
+// gallery
+// const gallery = document.getElementById('gallery');
+// const hero = document.querySelector('.hero');
+
+// gallery.addEventListener('click', function (e) {
+//   console.log(e.target);
+//   if (e.target.className == 'thumb') {
+//     hero.src = e.target.src;
+//   }
+// });
